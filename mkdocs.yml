@@ -1,10 +1,10 @@
 site_name: Operator Documentation
 docs_dir: documentation/
 site_url: "https://tercen.com"
-repo_url: https://github.com/tercen/mkdoc_playground
+repo_url: https://github.com/tercen/starter_guide
 edit_uri: edit/main/documentation/
 site_author: Tercen Authors
-site_description: "Tercen Operator Documentation"
+site_description: "Tercen Get Started Guide"
 use_directory_urls: true
 theme:
   name: material

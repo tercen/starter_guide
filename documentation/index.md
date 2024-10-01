@@ -1,21 +1,6 @@
-# Welcome to MkDocs
+# Get Started with Tercen
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+This video teaches the basics skills for navigating Tercen and building a data anlaysis workflow.
 
-## Commands
+It uses a simple flow-cytometry based tutorial to demonstrate the basic features. 
 
-This a test.
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-### Test title
