@@ -76,11 +76,4 @@ extra:
   version:
     provider: mike
     default: latest-release
-nav:
-  - Home : index.md
-  - Get Started:
-    - Introduction: introduction.md
-    - Examine the Data: examine the data.md
-    - Upload Data Files: Upload Data.md
-  - Data Analysis:
-    - Make A Projection:
+
