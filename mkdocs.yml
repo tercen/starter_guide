@@ -1,4 +1,4 @@
-site_name: Operator Documentation
+site_name: Tercen Starter Guide
 docs_dir: documentation/
 site_url: "https://tercen.com"
 repo_url: https://github.com/tercen/starter_guide
@@ -76,3 +76,11 @@ extra:
   version:
     provider: mike
     default: latest-release
+nav:
+  - Home : index.md
+  - Get Started:
+    - Introduction: introduction.md
+    - Examine the Data: examine the data.md
+    - Upload Data Files: Upload Data.md
+  - Data Analysis:
+    - Make A Projection:

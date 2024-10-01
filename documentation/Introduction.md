@@ -15,10 +15,10 @@ This lession shows how to navigate Tercen and find data.
 
 - **Ownership:**  A project is owned by You or a Team. Depending on which page you create it from.
 
-- **Tabs:** Projects, Teams, Team members, and the activity log can be accessed here.
+- **Tabs:** Projects, Teams, Team members, and the Activity Log can be accessed here.
 
 - **Clone:** Anything with a clone icon can be copied to one of your projects or teams.
 
-- **Public and Private:** Public means anybody on the Tercen server can see it. Private means only the Team can see it.
+- **Public and Private:** Public means anybody on the Tercen server can see it. Private means only the Owner (You or a Team) can see it.
 
 - **Search Bar:** Projects, Workflows and Files can be searched. 
