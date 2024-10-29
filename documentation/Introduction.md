@@ -33,6 +33,7 @@ On log-in to Tercen you will be brought to your Home screen.
 - **New Project:**  A new project can be created from the Home page or from inside a Team. The creator (Home or Team) is the owner of the project.
 - **Search Bar:** Projects, Workflows, Data Tables and Files can be searched. They must be owned by you or a Team you are a member of. Description text is included in the search but not contents of files.
 
+---
 
 ## Create a Project
 
@@ -70,6 +71,7 @@ A project is a repository for the elements of a data analysis. It contains Data 
 ### Readme.md
 Tercen creates a "Readme" notebook for each project. It is the display page for your project and can contain links to visualisations inside the workflow. The file is created with Markdown a lightweight scripting language.
 
+---
 
 ## Upload Data
 Tercen can upload any scientific data and analyse it. This tutorial provides some sample files to explain the concepts.
@@ -86,18 +88,50 @@ Open Example_Data_File.csv in a spreadsheet program.
 
 This data set has 127 Patients where multiple measurements were taken at different time points over the course of the experiment. The data file contains 
 
-- **Factors:** The Column headers of this spreadsheet become **Factors** in Tercen. Factors are "pots" of data (containing everything in the column) that Tercen can project and calculate on.  
+- **Factors:** Column headers of a spreadsheet become Factor names in Tercen. Factors are "pots" of data (containing everything in the column) that Tercen can project and calculate on.  
 - **Identifier Codes:** Unique identifier numbers for Patients, Samples, Experimental Conditions and many other elements. These ID codes are used to protect anonymity and link to Meta Data files with further information on that element. 
 - **Experimental Data:** Ordinary information. This file contains some patient data (AGE, RACEGRP, SEX) some experiment data (PANEL_TYPE, MEASUREMANT_TYPE, CELL SUBSET) 
 - **Measurement:** A data a file can have one or more measurement to be plotted in graphs. Identifying the Main Measurement is an important concept as analysis usually starts with this and expands from there. 
 
+---
 
+## Uploading Data
+Tercen uploads data files using importers. They are specific to the file type being uploaded.
 
-### Uploading Data
 Press the **New Data Set** button. 
 
+![Screenshot](img/starter_guide_data_upload_1.jpg)
 
-Tercen uploads data files using importers. They are specific to the file type being uploaded. Our example file is a CSV file (.csv). Search for CSV, select it and press ok.
+Our example file is a CSV file (.csv). 
 
-Tags can be pressed to filter options in a search.
+Search for CSV, select it and press Next.
+
+Tags can be pressed to filter options in the search.
+
+Use Drag and drop from your file browser or the browse button to select Example_Data_File.csv.
+
+![Screenshot](img/starter_guide_data_upload_2.jpg)
+
+Press Next to upload it.
+
+When Tercen uploads files it converts them to a Dynamic Table.
+
+Dynamic Tables allow Tercen to perform calculations and mix data from incompatible file types.
+
+---
+
+## Analyse Data with a Workflow
+
+Workflows are pipelines that process data, perform calculations on it, make visualisations and create reports.
+
+Press the **New workflow** button
+
+Name the workflow. (for example "Example Workflow")
+
+Press **Next**
+
+![alt text](img/starter_guide_workflow_1.jpg)
+
+Pre-defined workflows can be selected. These are called Templates. Templates are used to standardise pipelines to perform routine analysis or ensure repeatability by following the same analysis steps for each experiment. 
+
 
