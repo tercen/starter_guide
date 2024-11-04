@@ -73,9 +73,8 @@ Tercen can upload any scientific data and analyse it. This tutorial provides som
 
 ### Download Tutorial Files
 
-Download the example files from these links.
+Download the example file from this link.
 [Data File](sample_files/Example_Data_File.csv).
-[Annotation File](sample_files/Example_Annotation_File.csv).
 
 ### Examine the Data
 
@@ -234,11 +233,11 @@ Groupings on a Crosstab projection work from Outside to In. For Columns, the top
 
 Make the following projection.
 
-> VALUE to Y-Axis
-> SEX to Column
-> AGE to Column (after SEX)
-> CELL_SUBSET to Row
-> PANEL_TYPE to Row (before CELL_SUBSET)
+> VALUE to Y-Axis.
+> SEX to Column.
+> AGE to Column (after SEX).
+> CELL_SUBSET to Row.
+> PANEL_TYPE to Row (before CELL_SUBSET).
 
 ![Screenshot](img/starter_guide_Data_Step_5.jpg)
 
@@ -252,8 +251,8 @@ The Control Bar has buttons and Zones to control how a projection is visualized.
 - **Zones:** Light up green and apply a change to the data that is defined by the Factor that is dropped onto it. These are Filters, Colors, Labels, and Error Bar.
 
 Adjust the projection as follows.
-> SUBJECT_ID to Column (After AGE)
-> VALUE to Colors
+> SUBJECT_ID to Column (After AGE).
+> VALUE to Colors.
 
 The crosstab grid now has one data cell per measurement and they are coloured according to their VALUE with low numbers trending towards blue and high numbers trending towards Red.
 
@@ -356,8 +355,8 @@ _Note: Tercen automatically creates a **namespace** prefix to prevent duplicate 
 Add some groups to the projection.
 
 Press the **Reset Button** to unlock the projection and drag the following.
-> CELL_SUBSET to Row
-> SEX to Column
+> CELL_SUBSET to Row.
+> SEX to Column.
 
 Run the operator again and check the results.
 
@@ -378,10 +377,10 @@ Press the **Clear** Button to re-set the crosstab grid.
 The Factors Panel has two folders. One with the Factors from the data file and one with the new factors created by the Mean and SD operator.
 
 Make this projection.
-> mean to Y-Axis
-> CELL_SUBSET to X-Axis
-> CELL_SUBSET to Colors
-> Graph Style Button to Bar
+> mean to Y-Axis.
+> CELL_SUBSET to X-Axis.
+> CELL_SUBSET to Colors.
+> Graph Style Button to Bar.
 
 ![Screenshot](img/starter_guide_operator_5.jpg)
 
@@ -402,12 +401,12 @@ Use the Operators tag and Search to find the **Plot** operator.
 When the Data Step opens. Clear the crosstab grid
 
 Make the following projection.
-> mean to Y-Axis
-> CELL_SUBSET to Row
-> SEX to X-Axis
-> SEX to Colors
-> sd to Error Bar
-> Graph Style Button to Bar
+> mean to Y-Axis.
+> CELL_SUBSET to Row.
+> SEX to X-Axis.
+> SEX to Colors.
+> sd to Error Bar.
+> Graph Style Button to Bar.
 
 ![Screenshot](img/starter_guide_operator_6.jpg)
 
@@ -418,10 +417,10 @@ The Plot operator settings define export file type, image sizes, labels for data
 Each setting has a tooltip icon (?) with information on how to set parameters.
 
 Find and set the following parameters.
-> xlab to Patient Group
-> ylab to Cell Type
-> title to Mean and SD Graph
-> theme to classic
+> xlab to Patient Group.
+> ylab to Cell Type.
+> title to Mean and SD Graph.
+> theme to classic.
 
 Press the **Run** Button.
 
@@ -441,10 +440,48 @@ The Plot operator passes its results into the Workflow report panel.
 
 ![Screenshot](img/starter_guide_operator_8.jpg)
 
-This panel can build up a comprehensive report of plots from all Data Steps.
+This panel can build up a comprehensive report from all the Plot Operators in the workflow.
 
 ## Join
-### Check Join
+
+Tercen can combine data files and form a relational database inside your workflow.
+
+### What is a Join
+
+Databases relate information with codes called "keys". In simple terms, a "key" is a match made between two tables because they both contain a column that has the same data in it.
+There are many practical "keys" in a typical biology experiment. Obvious examples are Patient ID or Sample ID.
+
+Earlier, when we checked our file, we saw it had the identification codes SUBJECT_ID and EXPERIMENT_ID.
+
+Download the [Annotation File](sample_files/Example_Annotation_File.csv) from this link.
+
+Open it with a spreadsheet.
+![Screenshot](img/starter_guide_Join_1.jpg)
+
+The file contains some drug condition information for our experiment. Notice it also has a Factor called EXPERIMENT_ID. This is the key we will use to join our example files.
+
+_Tutorial Midpoint Test: Upload the Annotation file to your project and add it to the workflow canvas._
+
+### Joining Tables
+
+Click the Example_Annotation_File table on the workflow and add a Join from the Local Toolbar.
+_Note: Select a RightTable if your Files location on the workflow canvas is to the right of the one you want to join to and LeftTable if it is to the left._
+
+You will see a Join step has two nodes at the top, and one is already connected to your annotation file.
+
+Click the free node on the top of the Join and then click the bottom node of the Example Data File table.
+
+![Screenshot](img/starter_guide_Join_2.jpg)
+
+Edit the Join step.
+
+The Factors of each table are displayed side by side. Matching two together forms a key for the data.
+
+Choose EXPERIMENT_ID from each table and click the Run Step button.
+
+### Check a Join
+
+
 ### Project from a join 
 ### Export Data CSV
 
@@ -455,9 +492,9 @@ Add a new Data Step to the Mean and SD step using the local toolbar.
 Clear the grid.
 
 Make the following projection.
-> CELL_SUBSET to Row
-> mean to Row
-> sd to Row
+> CELL_SUBSET to Row.
+> mean to Row.
+> sd to Row.
 
 _Note: Building an Export Table is one of the rare cases where the Y-Axis is not used._
 
@@ -479,3 +516,4 @@ Save the Data Step. Return to the Workflow Canvas and Rename it "Export Table."
 ## Collaborating
 ### URL Sharing
 ### Teams
+### Templates
