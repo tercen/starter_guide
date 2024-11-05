@@ -481,13 +481,43 @@ Choose EXPERIMENT_ID from each table and click the Run Step button.
 
 ### Check a Join
 
+Add data step to the Join.
 
-### Project from a join 
-### Export Data CSV
+Project the factors you picked for the **key** into the crosstab rows.
+
+> EXPERIMENT_ID (From Example_Data_File.csv) to Row.
+> EXPERIMENT_ID (From Join) to Row.
+
+The crosstab will show all of the matches it has made.
+
+If the Join column is blank you will know that the key has failed.
+
+![Screenshot](img/starter_guide_Join_4.jpg)
+
+Return to the workflow canvas and rename the step to "Join Check"
+
+### Project from a Join
+
+Now that the data files are joined we can project from both and use the annotation file go provide extra context to the Example date.
+
+Add a Data Step to the Join.
+
+Make the following projection.
+_from Example_Data_File.csv._
+> VALUE to Y-Axis.
+> PANEL_TYPE to Row.
+_From Join._
+> Treatment to Column.
+
+![alt text](img/starter_guide_Join_5.jpg)
+
+Save the Data Step and rename it to "Condition".
+
+## Export Data Tables
 
 Tercen can use projections to build curated data sets out of factors from uploaded tables and calculations made by operators. These can be Exported easily and can be very useful for extracting simple data from complex files, perhaps for input to a downstream process.
 
-Add a new Data Step to the Mean and SD step using the local toolbar.
+Add a new Data Step to the **Mean and SD** step using the local toolbar.
 
 Clear the grid.
 
@@ -511,9 +541,41 @@ A CSV file of the data will be created and downloaded to your desktop.
 Save the Data Step. Return to the Workflow Canvas and Rename it "Export Table."
 
 ## Gather
+
+Until this point in the tutorial we have used a file with a single **Main Measurement** called VALUE. We have expressed the importance of using the Main Measurement on the Y-Axis and followed this principle with all of our examples.
+
+But what if a file has more than one measurement? An operator may require a Main Measurement on the Y-Axis and if your file has more than one measurement and it will be necessary to convert from Wide Format to Long Format.
+
+The difference between wide data and long data is an important Data Analysis concept.
+
+**Wide Data** is the traditional table format that you would see in a spreadsheet. Rows are individuals and columns tell you information about that individual. We get to a piece of information by cross referencing the row and column. Wide data is easy for humans to read but is difficult for computers to read.
+
+**Long Data** is a list format with one piece of information (measurement) per row and the descriptive information for the individual is repeated as many times as needed. Computers work faster with lists, they do not get bored reading the same information over and over again.
+
+The conversion process to change wide format to long format is called a **Gather**.
+
+### Examine the Data File
+
+Download the [Example_Multi_Measurement_File](sample_files/Example_Multi_Measurement_File.xlsx) from this link.
+
+Open it in your spreadsheet software.
+
+![Screenshot](img/starter_guide_Gather_1.jpg)
+
+This is a traditional Wide Format data file.
+
+There is an identifier codes (SUBJECT_ID, event_id).
+Some experimental data (AGE,SEX,DATE).
+And multiple measurements (CCR7, CD3, CD45, CD8, CXCR3, FSC-A, HLADR, IgD, PD-1, SSC-A, TCRgd)
+
+### Gather Data in Tercen
+
 ## Filter
 
 ## Collaborating
+
 ### URL Sharing
+
 ### Teams
+
 ### Templates
