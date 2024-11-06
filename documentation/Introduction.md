@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This tutorial explains how to navigate the Tercen interface and teaches basic skills for data analysis using Tercen.
+This tutorial teaches the basic skills features and techniques to begin using Tercen for data analysis.
 
 ### Topics Covered
 
@@ -15,7 +15,7 @@ This tutorial explains how to navigate the Tercen interface and teaches basic sk
 - Perform calculations on data
 - Export graphs and data tables.
 
-Note: Right click on a screenshot and open in a new tab if a High Res version is needed.
+_Note: Right click on a screenshot and open in a new tab to see a High Res version._
 
 ---
 
@@ -233,11 +233,11 @@ Groupings on a Crosstab projection work from Outside to In. For Columns, the top
 
 Make the following projection.
 
-> VALUE to Y-Axis.
-> SEX to Column.
-> AGE to Column (after SEX).
-> CELL_SUBSET to Row.
-> PANEL_TYPE to Row (before CELL_SUBSET).
+> VALUE to Y-Axis.  
+> SEX to Column.  
+> AGE to Column (after SEX).  
+> CELL_SUBSET to Row.  
+> PANEL_TYPE to Row (before CELL_SUBSET).  
 
 ![Screenshot](img/starter_guide_Data_Step_5.jpg)
 
@@ -251,8 +251,8 @@ The Control Bar has buttons and Zones to control how a projection is visualized.
 - **Zones:** Light up green and apply a change to the data that is defined by the Factor that is dropped onto it. These are Filters, Colors, Labels, and Error Bar.
 
 Adjust the projection as follows.
-> SUBJECT_ID to Column (After AGE).
-> VALUE to Colors.
+> SUBJECT_ID to Column (After AGE).  
+> VALUE to Colors.  
 
 The crosstab grid now has one data cell per measurement and they are coloured according to their VALUE with low numbers trending towards blue and high numbers trending towards Red.
 
@@ -355,8 +355,8 @@ _Note: Tercen automatically creates a **namespace** prefix to prevent duplicate 
 Add some groups to the projection.
 
 Press the **Reset Button** to unlock the projection and drag the following.
-> CELL_SUBSET to Row.
-> SEX to Column.
+> CELL_SUBSET to Row.  
+> SEX to Column.  
 
 Run the operator again and check the results.
 
@@ -377,10 +377,10 @@ Press the **Clear** Button to re-set the crosstab grid.
 The Factors Panel has two folders. One with the Factors from the data file and one with the new factors created by the Mean and SD operator.
 
 Make this projection.
-> mean to Y-Axis.
-> CELL_SUBSET to X-Axis.
-> CELL_SUBSET to Colors.
-> Graph Style Button to Bar.
+> mean to Y-Axis.  
+> CELL_SUBSET to X-Axis.  
+> CELL_SUBSET to Colors.  
+> Graph Style Button to Bar.  
 
 ![Screenshot](img/starter_guide_operator_5.jpg)
 
@@ -401,12 +401,12 @@ Use the Operators tag and Search to find the **Plot** operator.
 When the Data Step opens. Clear the crosstab grid
 
 Make the following projection.
-> mean to Y-Axis.
-> CELL_SUBSET to Row.
-> SEX to X-Axis.
-> SEX to Colors.
-> sd to Error Bar.
-> Graph Style Button to Bar.
+> mean to Y-Axis.  
+> CELL_SUBSET to Row.  
+> SEX to X-Axis.  
+> SEX to Colors.  
+> sd to Error Bar.  
+> Graph Style Button to Bar.  
 
 ![Screenshot](img/starter_guide_operator_6.jpg)
 
@@ -417,10 +417,10 @@ The Plot operator settings define export file type, image sizes, labels for data
 Each setting has a tooltip icon (?) with information on how to set parameters.
 
 Find and set the following parameters.
-> xlab to Patient Group.
-> ylab to Cell Type.
-> title to Mean and SD Graph.
-> theme to classic.
+> xlab to Patient Group.  
+> ylab to Cell Type.  
+> title to Mean and SD Graph.  
+> theme to classic.  
 
 Press the **Run** Button.
 
@@ -485,8 +485,8 @@ Add data step to the Join.
 
 Project the factors you picked for the **key** into the crosstab rows.
 
-> EXPERIMENT_ID (From Example_Data_File.csv) to Row.
-> EXPERIMENT_ID (From Join) to Row.
+> EXPERIMENT_ID (From Example_Data_File.csv) to Row.  
+> EXPERIMENT_ID (From Join) to Row.  
 
 The crosstab will show all of the matches it has made.
 
@@ -503,11 +503,11 @@ Now that the data files are joined we can project from both and use the annotati
 Add a Data Step to the Join.
 
 Make the following projection.
-_from Example_Data_File.csv._
-> VALUE to Y-Axis.
-> PANEL_TYPE to Row.
-_From Join._
-> Treatment to Column.
+_From Example Data File_
+> VALUE to Y-Axis.  
+> PANEL_TYPE to Row.  
+_From Join_
+> Treatment to Column.  
 
 ![alt text](img/starter_guide_Join_5.jpg)
 
@@ -522,9 +522,9 @@ Add a new Data Step to the **Mean and SD** step using the local toolbar.
 Clear the grid.
 
 Make the following projection.
-> CELL_SUBSET to Row.
-> mean to Row.
-> sd to Row.
+> CELL_SUBSET to Row.  
+> mean to Row.  
+> sd to Row.  
 
 _Note: Building an Export Table is one of the rare cases where the Y-Axis is not used._
 
@@ -544,13 +544,15 @@ Save the Data Step. Return to the Workflow Canvas and Rename it "Export Table."
 
 Until this point in the tutorial we have used a file with a single **Main Measurement** called VALUE. We have expressed the importance of using the Main Measurement on the Y-Axis and followed this principle with all of our examples.
 
-But what if a file has more than one measurement? An operator may require a Main Measurement on the Y-Axis and if your file has more than one measurement and it will be necessary to convert from Wide Format to Long Format.
+But what if a file has more than one main measurement?
+
+An operator may specify a Main Measurement on the Y-Axis and if your file has more than one measurement and it will be necessary to convert from Wide Format to Long Format.
 
 The difference between wide data and long data is an important Data Analysis concept.
 
-**Wide Data** is the traditional table format that you would see in a spreadsheet. Rows are individuals and columns tell you information about that individual. We get to a piece of information by cross referencing the row and column. Wide data is easy for humans to read but is difficult for computers to read.
+**Wide Data** is the traditional table format that you would see in a spreadsheet. Rows are individuals and columns tell you information about that individual. We get to a piece of information by visually cross referencing the row and column. Wide data is easy for humans to read but is difficult for computers to read.
 
-**Long Data** is a list format with one piece of information (measurement) per row and the descriptive information for the individual is repeated as many times as needed. Computers work faster with lists, they do not get bored reading the same information over and over again.
+**Long Data** is a list format with one piece of information (measurement) per row and the descriptive information for the piece is repeated as many times as needed. Computers work faster with lists, they do not get bored reading the same information over and over again.
 
 The conversion process to change wide format to long format is called a **Gather**.
 
@@ -566,16 +568,158 @@ This is a traditional Wide Format data file.
 
 There is an identifier codes (SUBJECT_ID, event_id).
 Some experimental data (AGE,SEX,DATE).
-And multiple measurements (CCR7, CD3, CD45, CD8, CXCR3, FSC-A, HLADR, IgD, PD-1, SSC-A, TCRgd)
+And multiple measurements (CCR7, CD3, CD45, CD8, CXCR3, FSC-A, HLADR, IgD, PD-1, SSC-A, TCRgd).
+
+Click the **Before Gather** tab in the spreadsheet.
+
+The top three lines of the spreadsheet are color coded.
+
+![Screenshot](img/starter_guide_Gather_2.jpg)
+
+- **Yellow:** Factor names for id codes and experimental data
+- **Green:** Factor names for measurements
+- **Blue, Beige, Orange:** Individual records with data.
+
+Click the **After Gather** tab on the spreadsheet.
+
+![Screenshot](img/starter_guide_Gather_3.jpg)
+
+Each measurement has moved to an individual row and its column header becomes a label used to describe it.
+The non-measurement data column headers are repeated as many times as needed on every row.
+
+Note that two new Factor names (in purple) are created.
+
+- **variable:** For the group of labels.
+- **value:** For the group of measurements.
 
 ### Gather Data in Tercen
 
+Upload the Example_Multi_Measurement_File.xlsx to your project and add it to the workflow canvas.
+
+_Note: This file is an Excel file. Remember to look for the correct importer._
+
+Add a **Gather** Step from the local toolbar.
+
+![Screenshot](img/starter_guide_Gather_4.jpg)
+
+Open the Gather step.
+
+![Screenshot](img/starter_guide_Gather_5.jpg)
+
+Use the plus buttons to add the channel factors to the list to be gathered
+
+Leave SUBJECT_ID, AGE and event_id to be un-gathered. They will be repeated on every row.
+
+Click the **Run Step** button.
+
+_Note: You may be wondering why SEX and DATE don't appear in the list. The factors are separated into Numeric and Character as text data can't form a main measurement._
+
+### Projecting Gathered Data
+
+Add a Data Step to the Gather from the local toolbar.
+
+The new Factors **variable** and **value** have been created and we can project value as a group and use variable to interpret it.
+
+Make this projection.
+_From Gather_
+> Value to Y-Axis.  
+> Variable to Row.  
+
+This gives an advantage for making graphs because multi-variate plots are now possible.
+
+Add to the projection.
+_From Example Data File_
+> SSC-A to X-Axis
+
+Tercen will build a bi-variate plot of SSC-A against each of the gathered channels.
+
+![Screenshot](img/starter_guide_Gather_6.jpg)
+
 ## Filter
+
+Filters are a way of narrowing down the data projected in the crosstab grid.
+
+Use them to control what is shown in a graph or sent to an operator for calculation.
+
+Tercen Filters use "Boolean Logic" which is based around the concept that all values are either true or false and by asking enough true/false questions you can get to any data point.
+
+In Tercen a Filter is a list of rules built up in the settings. Each rule has three parts.
+
+- The **Factor** it is based on.
+- A **Logic** for the rule to use.
+- And a piece of Data to **Define** the rule.
+
+Scroll down our crosstab projection. See there is an irrelevant plot where SSC- A is being compared to itself. Lets create a filter to remove it.
+
+### Create a Filter
+
+Drag **variable** and drop it on the **Filters** Zone.
+
+The Filter screen will open.
+
+Change the name to "Exclude Channels"
+
+To remove the SSC-A channel we will build a rule as follows.
+> Variable (Factor)  
+> not equals  (Logic)  
+> SSC-A (Definition)  
+
+You can use the search icon to find individual data in a factor.
+
+Click OK and check the crosstab projection. SSC-A is gone.
+
+### Create a Filter Range
+
+You can re-open a filter to modify it by clicking the Filter Zone chevron.
+
+Multiple Filters can be created on a projection and filters can be made more complex with multi-line rules.
+
+To exclude outlier values from the projection with a filter range drag **value** to filter.
+
+Call this one “Upper and Lower Bound”
+
+Build this rule.
+> value (Factor)  
+> greater (Logic)  
+> 0 (Definition)  
+
+Press plus to add a line
+
+Build a second rule.
+> value (Factor)  
+> less (Logic)  
+> 10000 (Definition)  
+
+![Screenshot](img/starter_guide_Filter_3.jpg)
+
+Press Ok and check the projection to see how it has changed.
+
+_Note: Be aware that Filters apply their rules from the Top down. The top rule is applied first and then the next one, and so on, down the list. The rules at the top DO affect the rules that come after them.So it is possible for an earlier rule to exclude data that you expect a later filter to operate on._
+
+Return to the workflow canvas and rename the step to "Side Scatter Plots".
 
 ## Collaborating
 
-### URL Sharing
+Making projects public is a way of collaborating with others. Tercen has some more features which help.
 
-### Teams
+### URL Links
 
-### Templates
+Every location in Tercen has a URL reference. They are shown in the blue text on the breadcrumb and in the activity log. To take a colleague to an exact spot in a project copy the URL and sent it to them. Remember they will need to be a member of your Team to be able to see it.
+
+![Screenshot](img/starter_guide_collaborate_1.jpg)
+
+## Teams
+
+Anybody can create a Team in Tercen.
+
+![Screenshot](img/starter_guide_collaborate_2.jpg)
+
+Members of a Team can be added by their User Name or the email account they used to sign up.
+
+![Screenshot](img/starter_guide_collaborate_3.jpg)
+
+Any projects created while inside the team will be visible to everybody in the team.
+
+![Screenshot](img/starter_guide_collaborate_4.jpg)
+
+---
