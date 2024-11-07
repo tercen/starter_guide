@@ -40,6 +40,7 @@ Press the New Project button to create one.
 - **Name:** The project name
 - **Description:** This description will appear on screen. The search bar will look for keywords in this section.
 - **Visibility Setting:** Public means anybody on the Tercen server can see it.
+
 The project will be visible in the **Explore** section of Tercen.
 Unchecking the setting means only the owner (Person or Team) can see it .
 
@@ -60,10 +61,6 @@ A project is a repository for the elements of a data analysis. It contains Data 
 - **Upload workflow:** Upload a workflow which was exported from another project.
 - **Project Settings:** Change Name, Description or Privacy Settings.
 - **Clone Project:** Make a copy of this project for a new user or team. Anything with a clone icon can be copied to one of your projects or teams.
-
-### Readme.md
-
-Tercen creates a "Readme" notebook for each project. It is the display page for your project and can contain links to visualisations inside the workflow. The file is created with Markdown a lightweight scripting language.
 
 ---
 
@@ -268,9 +265,9 @@ Grab Data Steps and move them on the canvas with your mouse.
 
 ![Screenshot](img/starter_guide_workflow_7.jpg)
 
-### Adjust the Color Palette
+### Adjust the Colour Palette
 
-Tercen has color control options for visualisations made with the crosstab.
+Tercen has colour control options for visualisations made with the crosstab.
 
 Right Click on the data cell to bring up the menu.
 
@@ -285,6 +282,8 @@ Tercen can take a quick snapshot of the visualisation in the crosstab grid and e
 Press the **Download** button to export the heatmap.
 
 _Note: This feature will only export what it sees on screen. If the crosstab is longer than the bottom of your screen those parts will not be imaged. Adjust the black lines to get a better image or follow the tutorial to learn how to use the Plot operator._
+
+---
 
 ## Working with Operators
 
@@ -442,6 +441,8 @@ The Plot operator passes its results into the Workflow report panel.
 
 This panel can build up a comprehensive report from all the Plot Operators in the workflow.
 
+---
+
 ## Join
 
 Tercen can combine data files and form a relational database inside your workflow.
@@ -513,6 +514,8 @@ _From Join_
 
 Save the Data Step and rename it to "Condition".
 
+---
+
 ## Export Data Tables
 
 Tercen can use projections to build curated data sets out of factors from uploaded tables and calculations made by operators. These can be Exported easily and can be very useful for extracting simple data from complex files, perhaps for input to a downstream process.
@@ -539,6 +542,8 @@ Select **Download**
 A CSV file of the data will be created and downloaded to your desktop.
 
 Save the Data Step. Return to the Workflow Canvas and Rename it "Export Table."
+
+---
 
 ## Gather
 
@@ -572,7 +577,7 @@ And multiple measurements (CCR7, CD3, CD45, CD8, CXCR3, FSC-A, HLADR, IgD, PD-1,
 
 Click the **Before Gather** tab in the spreadsheet.
 
-The top three lines of the spreadsheet are color coded.
+The top three lines of the spreadsheet are colour coded.
 
 ![Screenshot](img/starter_guide_Gather_2.jpg)
 
@@ -634,6 +639,8 @@ _From Example Data File_
 Tercen will build a bi-variate plot of SSC-A against each of the gathered channels.
 
 ![Screenshot](img/starter_guide_Gather_6.jpg)
+
+---
 
 ## Filter
 
@@ -698,6 +705,8 @@ _Note: Be aware that Filters apply their rules from the Top down. The top rule i
 
 Return to the workflow canvas and rename the step to "Side Scatter Plots".
 
+---
+
 ## Collaborating
 
 Making projects public is a way of collaborating with others. Tercen has some more features which help.
@@ -708,7 +717,7 @@ Every location in Tercen has a URL reference. They are shown in the blue text on
 
 ![Screenshot](img/starter_guide_collaborate_1.jpg)
 
-## Teams
+### Teams
 
 Anybody can create a Team in Tercen.
 
@@ -722,4 +731,13 @@ Any projects created while inside the team will be visible to everybody in the t
 
 ![Screenshot](img/starter_guide_collaborate_4.jpg)
 
+### Readme.md
+
+Tercen creates a "Readme" notebook for each project. It is the display page for your project and can contain links to visualisations inside the workflow. The file is created with Markdown a lightweight scripting language.
+
 ---
+
+# Alternative Video Tutorial
+
+A video tutorial is available at this link. It walks through exercises to illustrate the basic skills for analysing data in Tercen.
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/932148936?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Get Started With Tercen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
