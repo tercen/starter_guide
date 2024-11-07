@@ -1,5 +1,7 @@
 # Gather
 
+## What is a Gather
+
 Until this point in the tutorial we have used a file with a single **Main Measurement** called VALUE. We have expressed the importance of using the Main Measurement on the Y-Axis and followed this principle with all of our examples.
 
 But what if a file has more than one main measurement?
@@ -50,7 +52,7 @@ Note that two new Factor names (in purple) are created.
 - **variable:** For the group of labels.
 - **value:** For the group of measurements.
 
-## Gather Data in Tercen
+## Apply a Gather Step
 
 Upload the Example_Multi_Measurement_File.xlsx to your project and add it to the workflow canvas.
 
@@ -92,4 +94,3 @@ _From Example Data File_
 Tercen will build a bi-variate plot of SSC-A against each of the gathered channels.
 
 ![Screenshot](img/starter_guide_Gather_6.jpg)
-

@@ -115,19 +115,17 @@ extra:
 #   - Collaboration Tools: docs/collaborate.md
 
 nav:
-  - Home: index.md
-  - Level 1:
+  - Introduction: index.md
+  - Tutorial:
       - Create a Project: create_a_project.md
-      - Level 2:
-          - Upload Data: upload_data.md
-          - Basic Analysis Workflow: workflow.md
-      - Level 2.1:
-          - Using Operators: operators.md
-          - Join data files: join.md
-          - Export Data: export_data.md
-          - Gather: gather.md
-      - Level 2.2:
-          - Collaboration Tools: collaborate.md
+      - Upload Data: upload_data.md
+      - Basic Analysis - Workflow: workflow.md
+      - Using Operators: operators.md
+      - Join Data files: join.md
+      - Export a Data Table: export_data.md
+      - Perform a Gather: gather.md
+      - Apply a Filter: filter.md
+      - Collaboration Tips: collaborate.md
 
 
           

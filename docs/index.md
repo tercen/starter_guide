@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 This tutorial aims to teach the basic skills, features, and techniques to begin using Tercen for data analysis.
 

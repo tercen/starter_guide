@@ -52,7 +52,7 @@ If the Join column is blank you will know that the key has failed.
 
 Return to the workflow canvas and rename the step to "Join Check"
 
-## Project from a Join
+## Projecting Joined Data
 
 Now that the data files are joined we can project from both and use the annotation file go provide extra context to the Example date.
 
