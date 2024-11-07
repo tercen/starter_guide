@@ -1,9 +1,9 @@
 site_name: Tercen Starter Guide
-docs_dir: documentation/
+docs_dir: docs/
 site_url: "https://tercen.com"
 repo_url: https://github.com/tercen/starter_guide
 repo_name: tercen/starter_guide
-edit_uri: edit/main/documentation/
+edit_uri: edit/main/docs/
 site_author: Tercen Authors
 site_description: "Tercen Get Started Guide"
 use_directory_urls: true
