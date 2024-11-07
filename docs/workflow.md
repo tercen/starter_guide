@@ -160,7 +160,7 @@ Select **Palette**
 
 Experiment with the choices on offer.
 
-### Take a Snapshot
+## Take a Snapshot
 
 Tercen can take a quick snapshot of the visualisation in the crosstab grid and export it as a **.png** image file.
 
