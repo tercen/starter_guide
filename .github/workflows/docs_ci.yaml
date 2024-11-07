@@ -7,10 +7,6 @@ name: MKDocs
 on:
   push:
     branches: [main]
-    tags:
-      - '[0-9]+.[0-9]+.[0-9]+'
-  pull_request:
-    branches: [main]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,8 +23,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v4
-    - uses: tercen/actions/mkdocs@main
-      with:
-        tag: latest
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: '0'
+      - uses: tercen/actions/mkdocs@main
+        with:
+          committers_api_key: ${{ secrets.GITHUB_TOKEN }}
