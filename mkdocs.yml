@@ -42,7 +42,7 @@ extra_css:
 plugins:
   - search
   - git-committers:
-      repository: amaurel/developers_guide
+      repository: tercen/starter_guide
       branch: main
   - git-revision-date-localized:
       enable_creation_date: true
@@ -102,18 +102,6 @@ extra:
   version:
     provider: mike
 
-# nav:
-#  - Home: index.md
-#    - Create a Project: create_a_project.md
-#   - Upload Data: upload_data.md
-#    - Basic Analysis Workflow: workflow.md
-#    - Using Operators: operators.md
-#    - Join data files: join.md
-#    - Export Data: export_data.md
-#    - Gather: gather.md
-#    - Filters: filter.md
-#   - Collaboration Tools: docs/collaborate.md
-
 nav:
   - Introduction: index.md
   - Tutorial:
@@ -126,39 +114,3 @@ nav:
       - Perform a Gather: gather.md
       - Apply a Filter: filter.md
       - Collaboration Tips: collaborate.md
-
-
-          
-#      - Introduction: 
-#      - Getting started:
-#          - Core concepts: getting-started_core-concepts.mddocs/upload_data.md
-#          - Setting up Tercen Studio:    getting-started_setup-tercen-studio.md
-#      - R Operator development:
-#          - General workflow: operator-dev_intro.md
-#          - "Walkthrough example: R operator": operator-dev_create.md
-#          - Deploying an R operator:   operator-dev_deploy.md
-#          - Improving an operator:   operator-dev_improve.md
-#      - Python Operator development:
-#          - Getting familiar with Tercen Studio: operator-dev_python.md
-#      - Advanced concepts:
-#          - Continuous Integration Workflow: operator-dev_ci.md
-#          - Installing an Operator:    operator-dev_installation.md
-#          - Common patterns:    operator-dev_patterns.md
-#      - Templates:
-#          - Building a template: templates-apps_templates.md
-#      - Apps:
-#          - Building an app: templates-apps_apps.md
-#      - Library:
-#          - Tercen Library: library.md
-#      - Best practices:
-#          - Development guidelines: best-practices_guidelines.md
-#          - Using tim:    best-practices_using-tim.md
-#      - Troubleshooting:
-#          - Common operator issues: troubleshooting_common-issues.md
-#          - CI and Github Actions:   troubleshooting_ci.md
-#      - Going forward:
-#          - Next steps: going-forward_next-steps.md
-#      - Appendix:
-#          - Glossary: appendix_glossary.md
-#          - Organisation setup:   appendix_organisation-setup.md
-#          - Tercen Studio:   appendix_tercen-studio.md
