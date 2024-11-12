@@ -65,6 +65,6 @@ _From Example Data File_
 _From Join_
 > Treatment to Column.  
 
-![alt text](img/starter_guide_Join_5.jpg)
+![Screenshot](img/starter_guide_Join_5.jpg)
 
 Save the Data Step and rename it to "Condition".

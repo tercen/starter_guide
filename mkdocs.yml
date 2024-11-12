@@ -101,7 +101,6 @@ markdown_extensions:
 extra:
   version:
     provider: mike
-
 nav:
   - Introduction: index.md
   - Tutorial:
