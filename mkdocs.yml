@@ -15,7 +15,7 @@ theme:
   # custom_dir: .docs/overrides/
   font: false
   favicon: https://tercen.com/_assets/brand/fav.png
-  logo: ./images/Tercen Logo white_vert_B.png
+  logo: ./images/Small Logo white.png
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -27,7 +27,7 @@ theme:
     - navigation.path
     - navigation.sections
     #    - navigation.expand
-    - navigation.tabs
+    #    - navigation.tabs
     #    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -105,13 +105,12 @@ extra:
     provider: mike
 nav:
   - Introduction: index.md
-  - Tutorial:
-      - Create a Project: create_a_project.md
-      - Upload Data: upload_data.md
-      - Basic Analysis - Workflow: workflow.md
-      - Using Operators: operators.md
-      - Join Data files: join.md
-      - Export a Data Table: export_data.md
-      - Perform a Gather: gather.md
-      - Apply a Filter: filter.md
-      - Collaboration Tips: collaborate.md
+  - Create a Project: create_a_project.md
+  - Upload Data: upload_data.md
+  - Basic Analysis - Workflow: workflow.md
+  - Using Operators: operators.md
+  - Join Data files: join.md
+  - Export a Data Table: export_data.md
+  - Perform a Gather: gather.md
+  - Apply a Filter: filter.md
+  - Collaboration Tips: collaborate.md
