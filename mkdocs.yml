@@ -104,13 +104,15 @@ extra:
   version:
     provider: mike
 nav:
-  - Introduction: index.md
-  - Create a Project: create_a_project.md
-  - Upload Data: upload_data.md
-  - Basic Analysis - Workflow: workflow.md
-  - Using Operators: operators.md
-  - Join Data files: join.md
-  - Export a Data Table: export_data.md
-  - Perform a Gather: gather.md
-  - Apply a Filter: filter.md
-  - Collaboration Tips: collaborate.md
+  - Table Of Content:
+      - Introduction: index.md
+      - Create a Project: create_a_project.md
+      - Upload Data: upload_data.md
+      - Basic Analysis - Workflow: workflow.md
+      - Using Operators: operators.md
+      - Join Data files: join.md
+      - Export a Data Table: export_data.md
+      - Perform a Gather: gather.md
+      - Apply a Filter: filter.md
+      - Collaboration Tips: collaborate.md
+  
