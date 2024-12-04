@@ -1,6 +1,6 @@
 # Analyse Data: Workflow
 
-Workflows are pipelines that process data, perform calculations on it, make visualisations and create reports.
+Workflows are pipelines that process data, perform calculations on it, make visualizations, and create reports.
 
 Press the **New workflow** button
 
@@ -10,7 +10,7 @@ Press **Next**
 
 ![alt text](img/starter_guide_workflow_1.jpg)
 
-_Note: Pre-defined workflows can be selected. These are called Templates. Templates are used to standardise pipelines to perform routine analysis or ensure repeatability by following the same analysis steps for each experiment._
+_Note: Pre-defined workflows can be selected. These are called Templates. Templates are used to standardize pipelines to perform routine analysis or ensure repeatability by following the same analysis steps for each experiment._
 
 The Workflow Canvas will load.
 
@@ -37,7 +37,7 @@ Select the uploaded **Example_Data_File.csv** file from **Current Project** and 
 
 _Note: Data Tables uploaded to the Main Library of Tercen are available to every project on the server. Normally, these are reference data sets for calibration._
 
-The data table is loaded to the workflow canvas. Extend the pipeline by clicking the step to bring up the **Local Toolbar**.
+The data table is loaded to the workflow canvas. To extend the pipeline, click the step to bring up the Local Toolbar.
 
 ![Screenshot](img/starter_guide_workflow_5.jpg)
 
@@ -63,37 +63,37 @@ Data Steps are the main engine blocks of analysis in Tercen. Visualizations and 
 
 ![Screenshot](img/starter_guide_Data_Step_1.jpg)
 
-- **Control Bar:** Features for data manipulation and visualisation.
+- **Control Bar:** Features for data manipulation and visualization.
 - **Factors Panel:** Factors from the data file appear at the beginning of this list. As the pipeline is built folders are added containing the new factors that are created by the calculations it makes. Each Data Step has access to the factors of the steps that precede it in the pipeline.
-- **Crosstab Grid:** Factors are dropped onto this grid to make projections. These projections create the base data set that is used to create visualisations or perform calculations.
+- **Crosstab Grid:** Factors are dropped onto this grid to make projections. These projections create the base data set that is used to create visualizations or perform calculations.
 
 ## Make an X-Y Axis projection
 
 Drag VALUE out of the Factors panel with your mouse.
 
-The areas it can be dropped will go green.
+The areas where it can be dropped will go green.
 
 ![Screenshot](img/starter_guide_Data_Step_2.jpg)
 
-The crosstab grid will offer an X-Axis and a Y-Axis, which project numbers.
+The crosstab grid will offer an X-axis and a Y-axis, which project numbers.
 
-It will offer Row and Column which are used to form groupings of the data in the X-Y Axes.
+It will offer a Row and Column, which are used to form groupings of the data in the X-Y Axes.
 
-We recommend that you always start a projection with your main measurement in the Y-Axis.
+We recommend that you always start a projection with your primary measurement on the Y-axis.
 
-Drop VALUE on the Y-Axis.
+Drop VALUE on the Y-axis.
 
 The crosstab builds a Data Cell with all the measurements in the VALUE factor ordered from lowest to highest.
 
 ![Screenshot](img/starter_guide_Data_Step_3.jpg)
 
-_Note: Unlike a spreadsheet data cell, a Tercen data cell can hold multiple data points. This is an important concept that impacts how a calculation or visualisation is performed._
+_Note: Unlike a spreadsheet data cell, a Tercen data cell can hold multiple data points. This important concept impacts how a calculation or visualization is performed._
 
 Drag CELL_SUBSET to X-Axis to make a simple projection.
 
 Grab the black lines of the crosstab grid and drag them out to make the data more visible.
 
-Hold the **CTRL** key on your keyboard and scroll with the mouse wheel to zoom in and zoom out.
+Hold the **CTRL** key on your keyboard and scroll with the mouse wheel to zoom in and out.
 
 ![Screenshot](img/starter_guide_Data_Step_4.jpg)
 
@@ -107,9 +107,9 @@ Save the workflow.
 
 Click the Data Table and add a new Data Step from the Local Toolbar.
 
-When Factors are dropped to columns or Rows the crosstab will split the data cell into groups of data points according to that factor. These new data cells have their own X-Y Axis.
+When Factors are dropped to columns or Rows, the crosstab splits the data cell into groups of data points according to that factor. These new data cells have their own X-Y Axis.
 
-Multiple Factors can be dropped to Rows and Columns forming sub groups. A black line will appear either side of a Row or Column indicating whether a Factor will be dropped before or after the existing one.
+Multiple Factors can be dropped to Rows and Columns, forming subgroups. A black line will appear on either side of a Row or Column indicating whether a Factor will be dropped before or after the existing one.
 
 Groupings on a Crosstab projection work from Outside to In. For Columns, the topmost factor is grouped first, and then sub-groups in order below it. For Rows, the leftmost factor is grouped first, and then subsequent factors working to the right.
 
@@ -152,9 +152,9 @@ Grab Data Steps and move them on the canvas with your mouse.
 
 ## Adjust the Colour Palette
 
-Tercen has colour control options for visualisations made with the crosstab.
+Tercen has color control options for visualizations made with the crosstab.
 
-Right Click on the data cell to bring up the menu.
+Right-click on the data cell to bring up the menu.
 
 Select **Palette**
 
@@ -162,7 +162,7 @@ Experiment with the choices on offer.
 
 ## Take a Snapshot
 
-Tercen can take a quick snapshot of the visualisation in the crosstab grid and export it as a **.png** image file.
+Tercen can take a quick snapshot of the visualization in the crosstab grid and export it as a **.png** image file.
 
 Press the **Download** button to export the heatmap.
 
