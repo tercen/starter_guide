@@ -1,12 +1,12 @@
 # Export Data Tables
 
-Tercen can use projections to build curated data sets out of factors from uploaded tables and calculations made by operators. These can be Exported easily and can be very useful for extracting simple data from complex files, perhaps for input to a downstream process.
+Tercen can use projections to build curated data sets based on factors from uploaded tables and calculations made by operators. These can be Exported easily and are useful for extracting simple data from complex files, perhaps for input to a downstream process.
 
-Add a new Data Step to the **Mean and SD** step using the local toolbar.
+Use the local toolbar to add a new Data Step to the **Mean and SD** step.
 
 Clear the grid.
 
-Make the following projection.
+Perform the following projection.
 > CELL_SUBSET to Row.  
 > mean to Row.  
 > sd to Row.  
@@ -21,6 +21,6 @@ Go to the **Rows** tab
 
 Select **Download**
 
-A CSV file of the data will be created and downloaded to your desktop.
+A CSV data file will be created and downloaded to your desktop.
 
 Save the Data Step. Return to the Workflow Canvas and Rename it "Export Table."
