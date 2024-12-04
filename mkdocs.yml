@@ -104,7 +104,7 @@ extra:
   version:
     provider: mike
 nav:
-  - :
+  - Tutorial:
       - Introduction: index.md
       - Create a Project: create_a_project.md
       - Upload Data: upload_data.md
