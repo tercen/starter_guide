@@ -1,10 +1,10 @@
 # Collaborating
 
-Making projects public is a way of collaborating with others. Tercen has some more features which help.
+Making projects public is a way of collaborating with others. Tercen has some more features that help.
 
 ## URL Links
 
-Every location in Tercen has a URL reference. They are shown in the blue text on the breadcrumb and in the activity log. To take a colleague to an exact spot in a project copy the URL and sent it to them. Remember they will need to be a member of your Team to be able to see it.
+Every location in Tercen has a URL reference. They are shown in the blue text on the breadcrumb and in the activity log. To take a colleague to an exact spot in a project, copy the URL and send it to them. Remember, they will need to be a member of your Team to be able to see it.
 
 ![Screenshot](img/starter_guide_collaborate_1.jpg)
 
