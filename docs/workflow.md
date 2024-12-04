@@ -21,7 +21,7 @@ The Workflow Canvas will load.
 - **Reset** Unlocks a run-completed workflow so it can be modified.
 - **Add Step** Add an independent Step to the workflow. Use this to start a pipeline.
 - **Clone** Takes a copy of the workflow and recreates it in a different project.
-- **Size Control** Adjust zoom view of the canvas.
+- **Size Control** Adjust the zoom view of the canvas.
 
 ## Table Step
 
@@ -35,7 +35,7 @@ Choose the **Table** Step and press Ok
 
 Select the uploaded **Example_Data_File.csv** file from **Current Project** and press Ok.
 
-_Note: Data Tables uploaded to the Main Library of Tercen are available to every project on the server. Normally these are reference data sets for calibration._
+_Note: Data Tables uploaded to the Main Library of Tercen are available to every project on the server. Normally, these are reference data sets for calibration._
 
 The data table is loaded to the workflow canvas. Extend the pipeline by clicking the step to bring up the **Local Toolbar**.
 
