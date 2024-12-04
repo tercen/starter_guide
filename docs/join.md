@@ -4,7 +4,7 @@ Tercen can combine data files and form a relational database inside your workflo
 
 ## What is a Join
 
-Databases relate information with codes called "keys". In simple terms, a "key" is a match made between two tables because they both contain a column that has the same data in it.
+Databases relate information with codes called "keys". In simple terms, a "key" is a match made between two tables because they both contain a column with the same data in it.
 There are many practical "keys" in a typical biology experiment. Obvious examples are Patient ID or Sample ID.
 
 Earlier, when we checked our file, we saw it had the identification codes SUBJECT_ID and EXPERIMENT_ID.
@@ -14,7 +14,7 @@ Download the [Annotation File](sample_files/Example_Annotation_File.csv) from th
 Open it with a spreadsheet.
 ![Screenshot](img/starter_guide_Join_1.jpg)
 
-The file contains some drug condition information for our experiment. Notice it also has a Factor called EXPERIMENT_ID. This is the key we will use to join our example files.
+The file contains information on the drug condition for our experiment. Notice that it also has a factor called EXPERIMENT_ID. This is the key we will use to join our example files.
 
 _Tutorial Midpoint Test: Upload the Annotation file to your project and add it to the workflow canvas._
 
@@ -31,7 +31,7 @@ Click the free node on the top of the Join and then click the bottom node of the
 
 Edit the Join step.
 
-The Factors of each table are displayed side by side. Matching two together forms a key for the data.
+The Factors of each table are displayed side by side. Matching the two together forms a key to the data.
 
 Choose EXPERIMENT_ID from each table and click the Run Step button.
 
@@ -46,7 +46,7 @@ Project the factors you picked for the **key** into the crosstab rows.
 
 The crosstab will show all of the matches it has made.
 
-If the Join column is blank you will know that the key has failed.
+If the Join column is blank, you will know the key has failed.
 
 ![Screenshot](img/starter_guide_Join_4.jpg)
 
@@ -54,11 +54,11 @@ Return to the workflow canvas and rename the step to "Join Check"
 
 ## Projecting Joined Data
 
-Now that the data files are joined we can project from both and use the annotation file go provide extra context to the Example date.
+Now that the data files are joined, we can project from both and use the annotation file to provide extra context to the Example data.
 
 Add a Data Step to the Join.
 
-Make the following projection.
+Perform the following projection.
 _From Example Data File_
 > VALUE to Y-Axis.  
 > PANEL_TYPE to Row.  
