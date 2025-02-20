@@ -1,16 +1,20 @@
-# Analyse Data: Workflow
+# Basic Analysis: Workflow
+
+## What is a workflow?
 
 Workflows are pipelines that process data, perform calculations on it, make visualizations, and create reports.
 
-Press the **New workflow** button
+Press the **New Workflow** button
 
-Name the workflow. (for example "Example Workflow")
-
-Press **Next**
+Name the workflow (for example "Example Workflow").
 
 ![alt text](img/starter_guide_workflow_1.jpg)
 
-_Note: Pre-defined workflows can be selected. These are called Templates. Templates are used to standardize pipelines to perform routine analysis or ensure repeatability by following the same analysis steps for each experiment._
+_Note: Pre-defined workflows can be selected. These are called Templates. Templates are used to standardize pipelines so that set-up for routine analysis is speeded up or repeatability is ensured through following the same analysis steps for each experiment.
+
+Typically a Tercen analysis would start with a Template, but, for the purpose of this training exercise we will NOT select a template at this point_
+
+Press **Ok**
 
 The Workflow Canvas will load.
 
@@ -23,7 +27,7 @@ The Workflow Canvas will load.
 - **Clone** Takes a copy of the workflow and recreates it in a different project.
 - **Size Control** Adjust the zoom view of the canvas.
 
-## Table Step
+## Connect Data: Table Step
 
 Start a pipeline by pressing the **Add Step** button.
 
@@ -49,7 +53,7 @@ The data table is loaded to the workflow canvas. To extend the pipeline, click t
 - **Add:** Adds a new step, downstream from this step.
 - **Status Indicator:** Green when that Data Step has run successfully. Red if there is a problem.
 
-## Data Step
+## Define and Analysis: Data Step
 
 Press the **Add** button.
 
@@ -101,6 +105,8 @@ Press Save and return to the workflow canvas by clicking the breadcrumb.
 
 Click the data Step to bring up the Local toolbar and rename this Data Step to "Simple Projection".
 
+![Screenshot](img/starter_guide_Data_Step_4_1.jpg)
+
 Save the workflow.
 
 ## Make a Row/Column projection
@@ -144,21 +150,23 @@ Take a moment to move the black lines and zoom in to examine the data. Try to lo
 
 ![Screenshot](img/starter_guide_Data_Step_6.jpg)
 
-Save the Data Step, return to the workflow canvas and rename the data step "Heatmap".
-
-Grab Data Steps and move them on the canvas with your mouse.
-
-![Screenshot](img/starter_guide_workflow_7.jpg)
-
 ## Adjust the Colour Palette
 
-Tercen has color control options for visualizations made with the crosstab.
+Tercen has further color control options for visualizations made with the crosstab.
 
-Right-click on the data cell to bring up the menu.
+Select **Palette** from the Factors Panel.
 
-Select **Palette**
+Palette options are available in the dropdown.
+
+Selected Options will have further settings to adjust the color controls.
 
 Experiment with the choices on offer.
+
+Select the Divergent palette and adjust the min/max boundary.
+
+Click the color panes and reset them.
+
+![Screenshot](img/starter_guide_Data_Step_6_1.jpg)
 
 ## Take a Snapshot
 
@@ -167,3 +175,15 @@ Tercen can take a quick snapshot of the visualization in the crosstab grid and e
 Press the **Download** button to export the heatmap.
 
 _Note: This feature will only export what it sees on screen. If the crosstab is longer than the bottom of your screen those parts will not be imaged. Adjust the black lines to get a better image or follow the tutorial to learn how to use the Plot operator._
+
+## Save and Rename
+
+Save the Data Step.
+
+Return to the workflow canvas and rename the data step "Heatmap".
+
+Grab Data Steps and move them on the canvas with your mouse.
+
+Save the workflow.
+
+![Screenshot](img/starter_guide_workflow_7.jpg)

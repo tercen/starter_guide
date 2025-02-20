@@ -25,7 +25,7 @@ This data set has 127 Patients where multiple measurements were taken at differe
 
 Tercen uploads data files using importers. They are specific to the file type being uploaded.
 
-Press the **New Data Set** button.
+Press the **Import Data** button.
 
 ![Screenshot](img/starter_guide_data_upload_1.jpg)
 
@@ -39,7 +39,7 @@ Drag and drop from your file explorer or use the browse button to select `Exampl
 
 ![Screenshot](img/starter_guide_data_upload_2.jpg)
 
-Press Next to upload it.
+Press the **Upload** button to proceed.
 
 When Tercen uploads files, it converts them into a Dynamic Table.
 
