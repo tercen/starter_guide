@@ -4,21 +4,25 @@ Filters are a way of narrowing down the data projected in the crosstab grid.
 
 Use them to control what is shown in a graph or sent to an operator for calculation.
 
-Tercen Filters use "Boolean Logic" which is based around the concept that all values are either true or false and by asking enough true/false questions you can get to any data point.
+Tercen filters use "Boolean Logic" which is based around the concept that all values are either true or false and, by asking enough true/false questions, you can get to any data point.
 
-In Tercen a Filter is a list of rules built up in the settings. Each rule has three parts.
+In Tercen a Filter is a list of rules built up in the settings.
+
+Each rule has three parts.
 
 - The **Factor** it is based on.
 - A **Logic** for the rule to use.
-- And a piece of Data to **Define** the rule.
+- A piece of Data to **Define** the rule.
 
-Scroll down our crosstab projection. See there is an irrelevant plot where SSC- A is being compared to itself. Lets create a filter to remove it.
+Scroll down our crosstab projection. See there is an irrelevant plot where SSC- A is being compared to itself. You will see all the data a points in a diagonal line.
+
+Lets create a filter to remove it.
 
 ## Create a Filter
 
 Drag **variable** and drop it on the **Filters** Zone.
 
-The Filter screen will open.
+The Filter settings screen will open.
 
 Change the name to "Exclude Channels"
 

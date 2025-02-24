@@ -1,6 +1,8 @@
 # Export Data Tables
 
-Tercen can use projections to build curated data sets based on factors from uploaded tables and calculations made by operators. These can be Exported easily and are useful for extracting simple data from complex files, perhaps for input to a downstream process.
+You can use a Tercen projection to build new data sets using factors from uploaded tables and calculations made by operators.
+
+These can be Exported easily and are useful for extracting simple data from complex files, perhaps for input to a downstream process.
 
 Use the local toolbar to add a new Data Step to the **Mean and SD** step.
 

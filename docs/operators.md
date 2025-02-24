@@ -155,27 +155,26 @@ The Plot operator settings define export file type, image sizes, labels for data
 Each setting has a tooltip icon (?) with information on how to set parameters.
 
 Find and set the following parameters.
-> xlab to Patient Group.  
-> ylab to Cell Type.  
-> title to Mean and SD Graph.  
-> theme to classic.  
+> **xlab** to Patient Group
+> **ylab** to Cell Type
+> **title** to Mean and SD Graph
+> **wrap.1d** to False
+> **split_cells** to True
 
 Press the **Run** Button.
 
 ![Screenshot](img/starter_guide_operator_7.jpg)
 
-Images are rendered using standard Bioinformatics protocols as defined by the _ggplot_ R package.
+_Note: Images are rendered using standard Bioinformatics protocols as defined by the **ggplot** R package. The Operator has many settings that can significantly affect its look and performance._
 
-They can be downloaded individually by clicking the relevant link.
+They can be downloaded individually or batched together in a ZIP file. Just click the relevant link.
 
-Or scroll to the end of the page and batch download all images in a ZIP file.
-
-Save rename the Data Step and return to the workflow canvas.
+Save the Data Step and return to the workflow canvas.
 
 ## Workflow Report Panel
 
-The Plot operator passes its results into the Workflow report panel.
+The Plot operator can be used as many times as necessary and each one passes its results into the Workflow report panel.
 
 ![Screenshot](img/starter_guide_operator_8.jpg)
 
-This panel can build up a comprehensive report from all the Plot Operators in the workflow.
+This panel builds up a comprehensive report from all the Plot Operators in the workflow.

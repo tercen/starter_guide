@@ -18,9 +18,12 @@ The file contains information on the drug condition for our experiment. Notice t
 
 _Tutorial Midpoint Test: Upload the Annotation file to your project and add it to the workflow canvas._
 
+==Progress Test: Upload the Annotation file to your project and add it to the workflow canvas.==
+
 ## Joining Tables
 
 Click the Example_Annotation_File table on the workflow and add a Join from the Local Toolbar.
+
 _Note: Select a RightTable if your Files location on the workflow canvas is to the right of the one you want to join to and LeftTable if it is to the left._
 
 You will see a Join step has two nodes at the top, and one is already connected to your annotation file.
@@ -35,6 +38,8 @@ The Factors of each table are displayed side by side. Matching the two together 
 
 Choose EXPERIMENT_ID from each table and click the Run Step button.
 
+![Screenshot](img/starter_guide_Join_2_1.jpg)
+
 ## Check a Join
 
 Add data step to the Join.
@@ -46,7 +51,7 @@ Project the factors you picked for the **key** into the crosstab rows.
 
 The crosstab will show all of the matches it has made.
 
-If the Join column is blank, you will know the key has failed.
+If the **js0.EXPERIMEND_ID** column is blank, you will know the key has failed.
 
 ![Screenshot](img/starter_guide_Join_4.jpg)
 
@@ -60,10 +65,10 @@ Add a Data Step to the Join.
 
 Perform the following projection.
 _From Example Data File_
-> VALUE to Y-Axis.  
-> PANEL_TYPE to Row.  
+> **VALUE** to Y-Axis.  
+> **PANEL_TYPE** to Row.  
 _From Join_
-> Treatment to Column.  
+> **Treatment_Group** to Column.  
 
 ![Screenshot](img/starter_guide_Join_5.jpg)
 
