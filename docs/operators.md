@@ -155,11 +155,11 @@ The Plot operator settings define export file type, image sizes, labels for data
 Each setting has a tooltip icon (?) with information on how to set parameters.
 
 Find and set the following parameters.
-> **xlab** to Patient Group
-> **ylab** to Cell Type
-> **title** to Mean and SD Graph
-> **wrap.1d** to False
-> **split_cells** to True
+> **xlab** to Patient Group.
+> **ylab** to Cell Type.
+> **title** to Mean and SD Graph.
+> **wrap.1d** to False.
+> **split_cells** to True.
 
 Press the **Run** Button.
 
