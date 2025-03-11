@@ -14,8 +14,8 @@ theme:
   name: material
   # custom_dir: .docs/overrides/
   font: false
-  # favicon: https://tercen.com/_assets/brand/fav.png
-  favicon: .docs\images\tercen-logo-sq.svg
+  favicon: https://tercen.com/_assets/brand/fav.png
+  # favicon: .docs\images\tercen-logo-sq.svg
   logo: ./images/Small Logo white.png
   icon:
     repo: fontawesome/brands/github
