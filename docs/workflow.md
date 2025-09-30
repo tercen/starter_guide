@@ -10,9 +10,9 @@ Name the workflow (for example "Example Workflow").
 
 ![alt text](img/starter_guide_workflow_1.jpg)
 
-_Note: Pre-defined workflows can be selected. These are called Templates. Templates are used to standardize pipelines so that set-up for routine analysis is speeded up or repeatability is ensured through following the same analysis steps for each experiment.
+NOTE: Pre-defined workflows can be selected here. These are called Templates. Templates are used to standardize pipelines so that the set-up for routine analysis is speeded up and repeatability is ensured by using the same analysis steps for each experiment.
 
-Typically a Tercen analysis would start with a Template, but, for the purpose of this training exercise we will NOT select a template at this point_
+Typically a Tercen analysis would start with a Template, but, for the purpose of this training exercise we will NOT select a template at this point
 
 Press **Ok**
 
@@ -48,12 +48,12 @@ The data table is loaded to the workflow canvas. To extend the pipeline, click t
 - **Reset:** Resets this step and any dependent steps in the pipeline. Previous steps are not reset.
 - **Edit:** Opens this step to expose its features and settings.
 - **Rename:** Change the step name.
-- **Delete:** Removes the step.
+- **Remove:** Deletes the step.
 - **Duplicate:** Makes a copy of the step linked to the same previous data.
 - **Add:** Adds a new step, downstream from this step.
 - **Status Indicator:** Green when that Data Step has run successfully. Red if there is a problem.
 
-## Define and Analysis: Data Step
+## Define an Analysis: Data Step
 
 Press the **Add** button.
 
@@ -68,8 +68,8 @@ Data Steps are the main engine blocks of analysis in Tercen. Visualizations and 
 ![Screenshot](img/starter_guide_Data_Step_1.jpg)
 
 - **Control Bar:** Features for data manipulation and visualization.
-- **Factors Panel:** Factors from the data file appear at the beginning of this list. As the pipeline is built folders are added containing the new factors that are created by the calculations it makes. Each Data Step has access to the factors of the steps that precede it in the pipeline.
-- **Crosstab Grid:** Factors are dropped onto this grid to make projections. These projections create the base data set that is used to create visualizations or perform calculations.
+- **Factors Panel:** Column headers from the data file appear as Factors at the beginning of this list. As the pipeline is built folders will be added containing any new Factors that are created by any calculations the pipeline makes. Each Data Step has access to the factors of the steps that precede it in the pipeline.
+- **Crosstab Grid:** Factors are dropped onto this grid to make projections. These projections create the base data set that is used to create visualizations and perform calculations.
 
 ## Make an X-Y Axis projection
 
@@ -79,9 +79,9 @@ The areas where it can be dropped will go green.
 
 ![Screenshot](img/starter_guide_Data_Step_2.jpg)
 
-The crosstab grid will offer an X-axis and a Y-axis, which project numbers.
+The crosstab grid has an X-axis and a Y-axis, which project numbers.
 
-It will offer a Row and Column, which are used to form groupings of the data in the X-Y Axes.
+It also has Rows and Columns, which are used to perform groupings of the data projected in the X and Y Axes.
 
 We recommend that you always start a projection with your primary measurement on the Y-axis.
 
@@ -152,19 +152,19 @@ Take a moment to move the black lines and zoom in to examine the data. Try to lo
 
 ## Adjust the Colour Palette
 
-Tercen has further color control options for visualizations made with the crosstab.
+Tercen has further colour control options for visualizations made with the crosstab.
 
 Select **Palette** from the Factors Panel.
 
 Palette options are available in the dropdown.
 
-Selected Options will have further settings to adjust the color controls.
+Selected Options will have further settings to adjust the colour controls.
 
 Experiment with the choices on offer.
 
-Select the Divergent palette and adjust the min/max boundary.
+Select the Divergent palette and adjust the min/max boundary. Press teh plus button to apply your changes.
 
-Click the color panes and reset them.
+Click the colour panes and reset them.
 
 ![Screenshot](img/starter_guide_Data_Step_6_1.jpg)
 

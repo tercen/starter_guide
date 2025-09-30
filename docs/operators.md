@@ -4,7 +4,7 @@
 
 Operators are computer programs written in common languages such as R or Python. They perform calculations or visualisations on data and can be simple or complex depending on their design.
 
-Tercen provides hundreds of standard operators to choose from, and your organization may have created an operator specific to your lab's process.
+Tercen provides hundreds of standard operators to choose from, and your organization may even have created an operator specific to your experiment design.
 
 ## Add an Operator to a workflow
 
@@ -59,7 +59,9 @@ Return to Tercen.
 
 ## Run an Operator
 
-Drag **VALUE** to the **Y-axis**.
+Make the following projection.
+
+> VALUE to Y-Axis.
 
 Press the **Run Button** to start the operator.
 
@@ -94,7 +96,7 @@ Drag some new groups into the projection.
 
 Now, a Mean and a Standard Deviation (sd) have been calculated for all 118 cells in the crosstab (2 Columns, 59 Rows).
 
-Save the Data Step.
+**Save** the Data Step.
 
 Return to the Workflow Canvas.
 

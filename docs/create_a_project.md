@@ -6,24 +6,23 @@ A project is a folder or repository which holds the data files, pipelines, and s
 
 ## Start a New Project
 
-![Screenshot](img/starter_guide_new_project_1.png)
-
 Press the New Project button to create one.
 
-- **Name:** The project name
-- **Description:** This description will appear on the screen. The search bar will look for keywords in this section.
-- **Visibility Setting:** Public means anybody on the Tercen server can see it.
+![Screenshot](img/starter_guide_new_project_1.png)
 
-The project will be visible in the **Explore** section of Tercen.
-Unchecking the setting means only the owner (Person or Team) can see it.
+- **Name:** The project name
+- **Description:** Provide a short explanation of your project. The search bar will look for keywords in this section.
+- **Public:** This is the visibility setting. Checked On means anybody on the Tercen server can see it. The project will be visible in the **Explore** section of Tercen. Unchecking the setting means only the owner (Person or Team) can see it.
 
 A project is a repository for the elements of a data analysis. It contains Data Tables, Files, and Workflows.
+
 ![Screenshot](img/starter_guide_new_project_2.png)
 
 ## Project Header
 
-- **Visibility:** A lock icon shows visibility status. Closed = Project is private.  Open = Project is public.
-- **Activity Log:** This tab shows a list of actions performed in the course of the project.
+- **Project Tab:**  The main work area for the project.
+- **Activities Tab:** A log of actions performed in the course of the project.
+- **Lock Icon:** Shows visibility setting. Closed = Project is private.  Open = Project is public.
 
 ## Control Bar
 

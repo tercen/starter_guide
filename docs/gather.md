@@ -58,7 +58,7 @@ Note that two new Factor names (in purple) are created.
 
 Upload the Example_Multi_Measurement_File.xlsx to your project and add it to the workflow canvas.
 
-_Note: This file is an Excel file. Remember to look for the correct importer._
+_NOTE: This file is an Excel file. Remember to look for the correct importer._
 
 Add a **Gather** Step from the local toolbar.
 
@@ -74,7 +74,7 @@ Leave SUBJECT_ID, AGE and event_id to be un-gathered. They will be repeated on e
 
 Click the **Run Step** button.
 
-_Note: You may be wondering why SEX and DATE don't appear in the list. The factors are separated into Numeric and Character as text data can not be a main measurement._
+_NOTE: You may be wondering why SEX and DATE don't appear in the list. The factors are separated into Numeric and Character as text data can not be a main measurement._
 
 ## Projecting Gathered Data
 
