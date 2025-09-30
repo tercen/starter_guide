@@ -24,7 +24,8 @@ _Tutorial Midpoint Test: Upload the Annotation file to your project and add it t
 
 Click the Example_Annotation_File table on the workflow and add a Join from the Local Toolbar.
 
-_Note: Select a RightTable if your Files location on the workflow canvas is to the right of the one you want to join to and LeftTable if it is to the left._
+!!! note
+    Select a RightTable if your Files location on the workflow canvas is to the right of the one you want to join to and LeftTable if it is to the left.
 
 You will see a Join step has two nodes at the top, and one is already connected to your annotation file.
 

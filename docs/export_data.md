@@ -13,7 +13,8 @@ Perform the following projection.
 > mean to Row.  
 > sd to Row.  
 
-_Note: Building an Export Table is one of the rare cases where the Y-Axis is not used._
+!!! note
+    Building an Export Table is one of the rare cases where the Y-Axis is not used.
 
 Press the **Tables** Button to view the data in the projection.
 

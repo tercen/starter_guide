@@ -1,6 +1,6 @@
 # Upload Data
 
-Tercen can upload and analyze any scientific data. This tutorial provides some sample files to explain the concepts.
+Tercen can upload and analyse any scientific data. This tutorial provides some sample files to explain the concepts.
 
 ## Download Tutorial Files
 

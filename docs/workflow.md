@@ -10,7 +10,8 @@ Name the workflow (for example "Example Workflow").
 
 ![alt text](img/starter_guide_workflow_1.jpg)
 
-NOTE: Pre-defined workflows can be selected here. These are called Templates. Templates are used to standardize pipelines so that the set-up for routine analysis is speeded up and repeatability is ensured by using the same analysis steps for each experiment.
+!!! note
+    Pre-defined workflows can be selected here. These are called Templates. Templates are used to standardize pipelines so that the set-up for routine analysis is speeded up and repeatability is ensured by using the same analysis steps for each experiment.
 
 Typically a Tercen analysis would start with a Template, but, for the purpose of this training exercise we will NOT select a template at this point
 
@@ -39,7 +40,8 @@ Choose the **Table** Step and press Ok
 
 Select the uploaded **Example_Data_File.csv** file from **Current Project** and press Ok.
 
-_Note: Data Tables uploaded to the Main Library of Tercen are available to every project on the server. Normally, these are reference data sets for calibration._
+!!! note
+    Data Tables uploaded to the Main Library of Tercen are available to every project on the server. Normally, these are reference data sets for calibration._
 
 The data table is loaded to the workflow canvas. To extend the pipeline, click the step to bring up the Local Toolbar.
 
@@ -91,7 +93,8 @@ The crosstab builds a Data Cell with all the measurements in the VALUE factor or
 
 ![Screenshot](img/starter_guide_Data_Step_3.jpg)
 
-_Note: Unlike a spreadsheet data cell, a Tercen data cell can hold multiple data points. This important concept impacts how a calculation or visualization is performed._
+!!! note
+    Unlike a spreadsheet data cell, a Tercen data cell can hold multiple data points. This important concept impacts how a calculation or visualization is performed._
 
 Drag CELL_SUBSET to X-Axis to make a simple projection.
 
@@ -174,7 +177,8 @@ Tercen can take a quick snapshot of the visualization in the crosstab grid and e
 
 Press the **Download** button to export the heatmap.
 
-_Note: This feature will only export what it sees on screen. If the crosstab is longer than the bottom of your screen those parts will not be imaged. Adjust the black lines to get a better image or follow the tutorial to learn how to use the Plot operator._
+!!! note
+    This feature will only export what it sees on screen. If the crosstab is longer than the bottom of your screen those parts will not be imaged. Adjust the black lines to get a better image or follow the tutorial to learn how to use the Plot operator.
 
 ## Save and Rename
 

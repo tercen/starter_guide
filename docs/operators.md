@@ -27,7 +27,8 @@ This operator will calculate a Mean and a Standard Deviation for every data cell
 - **Minus Button:** Removes the operator.
 - **Run Button:** Locks the projection in the crosstab and runs the operator code on the data.
 
-_Note: If Plus is pressed while an operator is already loaded Tercen will allow a new version of the same operator to be loaded without losing any settings you may have made on the old version. To go back to default settings use the minus button before adding again._
+!!! note
+    If Plus is pressed while an operator is already loaded Tercen will allow a new version of the same operator to be loaded without losing any settings you may have made on the old version. To go back to default settings use the minus button before adding again.
 
 ## How to set up an operator
 
@@ -80,7 +81,8 @@ Press the **Result Button** to review a data table with the operator's results.
 
 The operator created two new factors **mean** and **sd** according to the spec. There is one calculation for each as there was one Data Cell in the projection.
 
-_Note: Tercen automatically creates a **namespace** prefix to prevent duplicate Factor names from being created. They are based on the Object Type. For example, Data Steps generate "ds1." "ds2." and so on. Other steps have different namespaces.
+!!! note
+    Tercen automatically creates a **namespace** prefix to prevent duplicate Factor names from being created. They are based on the Object Type. For example, Data Steps generate "ds1." "ds2." and so on. Other steps have different namespaces.
 
 ## Adjusting an Operator
 
@@ -102,11 +104,13 @@ Return to the Workflow Canvas.
 
 ## Project the results of an Operator
 
-_Note: The Status Indicator on the  Mean and SD data step should be green._
+!!! note
+    The Status Indicator on the  Mean and SD data step should be green.
 
 To access the results of an operator's calculations, add a new data step to the Mean and SD step using the Local Toolbar.
 
-_Note: The Tercen AI will attempt to help you by automatically creating a projection based on the Data Step you added the new step to. For this tutorial we will reject the suggestions and build each projection manually._
+!!! note
+    The Tercen AI will attempt to help you by automatically creating a projection based on the Data Step you added the new step to. For this tutorial we will reject the suggestions and build each projection manually.
 
 Press the **Clear** Button to re-set the crosstab grid.
 
@@ -114,7 +118,8 @@ The Factors Panel now has two folders.
 
 The original folder with the Factors from the uploaded data file (Example_Data_File.csv) and a new one with the factors created by the Mean and SD operator.
 
-_Note: The operator has created a mean factor and an sd factor according to the spec but there are other factors in this folder. These SEX and CELL_SUBSET were the factors we projected in the crosstab when we set up the operator. Tercen "carries down" an operators set-up in order to make further projections easier._
+!!! note
+    The operator has created a mean factor and an sd factor according to the spec but there are other factors in this folder. These SEX and CELL_SUBSET were the factors we projected in the crosstab when we set up the operator. Tercen "carries down" an operators set-up in order to make further projections easier.
 
 Make this projection.
 > mean to Y-Axis.  
@@ -167,7 +172,8 @@ Press the **Run** Button.
 
 ![Screenshot](img/starter_guide_operator_7.jpg)
 
-_Note: Images are rendered using standard Bioinformatics protocols as defined by the **ggplot** R package. The Operator has many settings that can significantly affect its look and performance._
+!!! note
+    Images are rendered using standard Bioinformatics protocols as defined by the **ggplot** R package. The Operator has many settings that can significantly affect its look and performance.
 
 They can be downloaded individually or batched together in a ZIP file. Just click the relevant link.
 

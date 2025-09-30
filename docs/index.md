@@ -11,7 +11,8 @@ This tutorial teaches the basic skills, features, and techniques needed to use T
 - Perform calculations on data
 - Export graphs and data tables.
 
-_Note: Right click on a screenshot and open in a new tab to see a High Res version._
+!!! note
+    Right click on a screenshot and open in a new tab to see a High Res version.
 
 ---
 

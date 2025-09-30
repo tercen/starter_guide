@@ -61,6 +61,7 @@ Build a second rule.
 
 Press Ok and check the projection to see how it has changed.
 
-NOTE: Be aware that Filters apply their rules from the Top down. The top rule is applied first and then the next one, and so on, down the list. The rules at the top DO affect the rules that come after them.So it is possible for an earlier rule to exclude data that you expect a later filter to operate on.
+!!! note
+    Be aware that Filters apply their rules from the Top down. The top rule is applied first and then the next one, and so on, down the list. The rules at the top DO affect the rules that come after them.So it is possible for an earlier rule to exclude data that you expect a later filter to operate on.
 
 Return to the workflow canvas and rename the step to "Side Scatter Plots".
